@@ -2,7 +2,6 @@ import cv2
 from deepface import DeepFace
 from ultralytics import YOLO
 
-# Load YOLO face model
 model = YOLO("yolov8n-face.pt")
 
 cap = cv2.VideoCapture(1)
